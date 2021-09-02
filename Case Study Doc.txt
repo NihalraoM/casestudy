@@ -1,0 +1,121 @@
+
+
+
+ Stake holders():
+{
+        ->Farmers/sellers.
+	->Dealers/buyers.
+	->site/app service providers.
+                   
+}
+
+Workflow():
+{
+
+	Select As Farmer/Dealer():
+			
+		Farmer(){
+			->signup,
+			->setup profile,
+			->add bank details,
+			->Putup the crop details.
+			}
+			
+		Dealer(){
+			->signup,
+			->setup profile,
+			filter()
+			{
+			->choose location,
+			->choose crop types,
+			->choose quant,
+			}
+			->Bank details.
+			->select the desired crop.
+			}
+}
+
+Database():
+{
+
+	accountHolder[]:{
+			Name,
+			Email,
+			password,
+			phoneNo,
+			panNo.
+			}
+	accountHolderAddress[]:
+			{
+			precise Address,
+			location,
+			pin code,
+			district,
+			state,
+			country.	
+			}
+	Crop/asset details[]:
+			{
+				Farmer():
+					{
+					orderId,
+					TypeofCrop,
+					Quantity,
+					GradeofCrop,
+					EsitimatedPrice,
+					}
+				Delear():
+					{
+					orderId,
+					TypeofCrop,
+					Quantity,
+					GradeofCrop,
+					EsitimatedPrice,
+					}
+			}
+	BanckAccDetails[]:
+			{
+			AccNo,
+			AccuserName,
+			IfscNo,
+			BankName,
+			BankBranch.
+			}
+			
+}
+			
+
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
